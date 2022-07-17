@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" media="screen and (max-width: 600px)" href="smallscreen1.css"> <!-- max genişlik en fazla 600pxe kadar -->
+    <link rel="stylesheet" media="screen and (min-width: 600px)" href="smallscreen.css"> <!-- min genişlik en az 600pxe kadar -->
+    <link rel="stylesheet" media="screen and (min-width: 768px)" href="widescreen.css"> <!-- min genişlik en az 768pxe kadar -->
+    <link rel="stylesheet"  media="screen and (min-width: 992px)" href="style1.css"> <!-- min genişlik en az 900pxe kadar -->
+    <link rel="stylesheet"  media="screen and (min-width: 1200px)" href="style.css"> <!-- min genişlik en az 1200pxe kadar -->
+    <link rel="stylesheet" href="bootstrap.css"> <!-- BOOSTRAP 5 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"> <!-- fontawesome-->
+    <!-- fontlar  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Square+Peg&family=Water+Brush&display=swap" rel="stylesheet">
+    <title>Fleur</title>
+</head>
+<body>
+    
+    <!-- header -->
+    <div class="headerdiv pt-5">
+        <!-- menü -->
+        <div class="container-fluid p-0">
+            <div class="row g-0">
+                <div class="col-lg-12">
+                    <div class="mobile-navbar">
+                        <nav class="navbar navbar-light fixed-top navbarme navbar-expand-md">
+                            <div class="container-fluid p-0">
+                              <a class="navbar-brand" href="#">
+                                  <img src="Photos/logo.png" alt="" height="25px" class="ms-2"> <!--logo-->
+                              </a>
+                              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                                <span class="navbar-toggler-icon"></span>
+                              </button>
+                              <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                                <div class="offcanvas-header nevbarme">
+                                  <h5 class="offcanvas-title" id="offcanvasNavbarLabel">FLEUR</h5>
+                                  <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                </div>
+                                <div class="offcanvas-body navbarme me-2 text-center"> <!-- navbar list-->
+                                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                    <li class="nav-item">
+                                      <a class="nav-link" aria-current="page" href="#">Collections</a>
+                                    </li>
+                                    <li class="nav-item">
+                                      <a class="nav-link" href="#">About</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Contact</a>
+                                      </li>
+                                      <li class="nav-item">
+                                        <a class="nav-link btn btn-outline-light" href="#">Shop</a>
+                                      </li>
+                                   
+                                </div>
+                              </div>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+         <!-- menü bitiş -->
+         <!-- header photo -->
+        <div class="header-photo">
+            <div class="container-fluid p-0">
+                <div class="row g-0">
+                   <div class="col-lg-12 col-md-12 col-sm-12">
+                    <div class="card text-black">
+                        <img src="Photos/header-photo.jpg" alt="" class="img-fluid card-img crd-img1">
+                        <img src="Photos/header-photo-mobil.jpg" alt="" class="img-fluid card-img crd-img2">
+                        <div class="card-body card-img-overlay text-center">
+                         <div class="headercard">
+                             <h1 class="Card-h1 display-1">
+                                 Custon Dried Flour Bouquets
+                            </h1>
+                            <p>
+                                Free Delivery on orders over
+                            </p>
+                            <a href="#" class="btnheader mt-2">Go somewhere</a>
+                         </div>
+                        </div>
+                     <div class="card-footer card-img-overlay text-black">
+                       <p class="card-text position-absolute bottom-0">
+                         <i class="fa-brands fa-facebook"></i>
+                         <i class="fa-brands fa-twitter"></i>
+                         <i class="fa-brands fa-instagram"></i>
+                       </p>
+                     </div>
+                 </div>
+                   </div>
+                </div>
+            </div>
+       </div>
+<!-- header bitiş  -->
+<!-- about  -->
+       <div class="about">
+           <div class="container-fluid p-0">
+               <div class="row g-0">
+                <div class="col-lg-12 col-md-12 col-sm-12 text-center pt-5">
+                    <h4>
+                        What we Do
+                    </h4>
+                    <h1>
+                        Our Services
+                    </h1>
+                </div>
+               </div>
+               <div class="row g-0 ">
+                   <div class="col-lg-4 col-md-4 col-sm-12 p-5 padding-2">
+                       <div class="about-1">
+                            <img src="Photos/about-one.jpg" alt="">
+                       </div>
+                       <div class="about-1-1 text-center">
+                           <h4 class="font-weight-bold">
+                               Custom Bouquets
+                           </h4>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis aspernatur esse aut placeat inventore hic quia, consequuntur impedit dolorum sit tenetur, earum vero. Libero perspiciatis voluptas, nisi vel mollitia placeat?
+                        </p>
+                        <a href="#" class="btn about-button font-weight-bold">Read Me</a>
+                       </div>
+                   </div>
+                   <div class="col-lg-4 col-md-4 col-sm-12 p-5 padding-2">
+                    <div class="about-1">
+                        <img src="Photos/about-two.jpg" alt="">
+                   </div>
+                   <div class="about-1-1 text-center">
+                       <h4 class="font-weight-bold">
+                           Custom Bouquets
+                       </h4>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis aspernatur esse aut placeat inventore hic quia, consequuntur impedit dolorum sit tenetur, earum vero. Libero perspiciatis voluptas, nisi vel mollitia placeat?
+                    </p>
+                    <a href="#" class="btn about-button font-weight-bold">Read Me</a>
+                   </div>
+                   </div>
+                   <div class="col-lg-4 col-md-4 col-sm-12 p-5 padding-2">
+                    <div class="about-1">
+                        <img src="Photos/about-three.jpg" alt="">
+                   </div>
+                   <div class="about-1-1 text-center">
+                       <h4 class="font-weight-bold">
+                           Custom Bouquets
+                       </h4>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis aspernatur esse aut placeat inventore hic quia, consequuntur impedit dolorum sit tenetur, earum vero. Libero perspiciatis voluptas, nisi vel mollitia placeat?
+                    </p>
+                    <a href="#" class="btn about-button font-weight-bold">Read Me</a>
+                   </div>
+                   </div>
+               </div>
+           </div>
+       </div>
+       <div class="about-two">
+           <div class="container-fluid p-0">
+               <div class="row g-0 bg-light">
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="text-about d-block mx-auto text-center m-3 p-5">
+                        <h5 class="text-uppercase">
+                            Lorem ipsum dolor sit.
+                        </h5>
+                        <h1>
+                            Gift ideas last longer
+                        </h1>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia nemo voluptatibus veniam corrupti, libero doloremque sapiente perspiciatis! Accusamus quas quis enim mollitia, tenetur ipsam dignissimos officia neque voluptatibus earum atque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, voluptatum quasi nostrum modi repellat provident repudiandae sint doloremque sed animi voluptate. Et maxime corrupti harum modi itaque, cum veritatis sed!
+                        </p>
+                        <a href="#" class=" btn-me"> Button </a>
+                    </div>
+                </div>
+                <!-- clippath -->
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="clippath d-block mx-auto">
+                        <img src="Photos/about-two.jpg" alt="" class="p-0 m-0">
+                    </div>
+                    <!-- clippath -->
+                </div>
+               </div>
+           </div>
+       </div>
+       <!-- posts -->
+       <div class="posts-genel-div">
+        <div class="posts-1">
+            <div class="container-fluid p-0">
+                <div class="row g-0">
+                    <div class="col-lg-12 col-md-12 col-sm-12 post-text text-center">
+                        <h6 class="mt-5">COLLECTION</h6>
+                        <h3 class="">See Whats Popular</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="posts-2 mt-1"></div>
+        <div class="container-fluid p-0">
+            <div class="row g-0">
+                <div class="col-lg-3 p-5">
+                    <img src="Photos/post-1.jpg" alt="" class="img-fluid post-2-img p-0 m-0 w-100">
+                    <div class="text-end color-text">
+                        <i class="fa-solid fa-heart"></i> <p class="d-inline-block me-2">126</p>
+                        <i class="fa-solid fa-comment"></i> <p class="d-inline-block me-2">159</p>
+                        <i class="fa-solid fa-share"></i>
+                    </div>
+                </div>
+                <div class="col-lg-3 p-5">
+                    <img src="Photos/post-2.jpg" alt="" class="img-fluid post-2-img p-0 m-0 w-100">
+                    <div class="text-end color-text">
+                        <i class="fa-solid fa-heart"></i> <p class="d-inline-block me-2">126</p>
+                        <i class="fa-solid fa-comment"></i> <p class="d-inline-block me-2">159</p>
+                        <i class="fa-solid fa-share"></i>
+                    </div>
+                </div>
+                <div class="col-lg-3 p-5">
+                    <img src="Photos/post-3.jpg" alt="" class="img-fluid post-2-img p-0 m-0 w-100">
+                    <div class="text-end color-text">
+                        <i class="fa-solid fa-heart"></i> <p class="d-inline-block me-2">126</p>
+                        <i class="fa-solid fa-comment"></i> <p class="d-inline-block me-2">159</p>
+                        <i class="fa-solid fa-share"></i>
+                    </div>
+                </div>
+                <div class="col-lg-3 p-5">
+                    <img src="Photos/post-4.jpg" alt="" class="img-fluid post-2-img p-0 m-0 w-100">
+                    <div class="text-end color-text">
+                        <i class="fa-solid fa-heart"></i> <p class="d-inline-block me-2">126</p>
+                        <i class="fa-solid fa-comment"></i> <p class="d-inline-block me-2">159</p>
+                        <i class="fa-solid fa-share"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+       </div>
+       <!-- posts -->
+<!-- contact  -->
+    <div class="contact">
+        <div class="container-fluid p-0">
+            <div class="row g-0">
+                <div class="div-col-lg-12">
+                    <div class="contact-text mx-auto text-center">
+                        <div class="circle-clippath position-absolute">
+                        </div>
+                        <div class="contact-text position-absolute text-center ">
+                                <h2 class="mt-6">
+                                    Take Our Staff 
+                                </h2>
+                                <p class="p-1 d-inline-block w-50">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi minus doloribus nostrum obcaecati nisi. Cum neque ut quasi illo consequuntur minus quam, totam soluta nobis hic beatae, eos deleniti repellendus.
+                                </p>
+                                <div> <a href="#" class="btn-contact">Button</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- contact  -->
+<!-- footer -->
+    <div class="footer">
+        <footer>
+            <div class="container-fluid p-0">
+                <div class="row g-0 mt-4">
+                    <div class="col-lg-6 col-md-6 col-sm-4">
+                        <div class="p-3">
+                            <img src="Photos/logo.png" alt="" width="100px">
+                            <p class="text-uppercase mt-2 color-text">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                            </p>
+<!-- form -->
+                            <form action="#" class="row g-2 mb-0">
+                                <div class="col-auto">
+                                    <input type="email" class="form-control-plaintext bg-light" id="StaticEmail" value="email@example.com">
+                                    <label for="StaticEmail" class=""></label>
+                                </div>
+                                <div class="col-auto">
+                                    <button type="submit" class="btn-footer mb-3">Submit</button>
+                                </div>
+                            </form>
+                        </div>
+ <!-- form -->
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-8">
+                        <div class="row g-0 mt-3">
+                            <div class="col-auto ms-5">
+                                <h6 class="text-uppercase">Lorem, ipsum dolor.</h6>
+                                <p> Lorem, ipsum.</p>
+                                <p> email@example.com</p>
+                                <p> Lorem, ipsum.</p>
+                            </div>
+                            <div class="col-auto ms-5">
+                                <h6> CONTACT US</h6>
+                                <p>Lorem ipsum dolor sit.</p>
+                                <p>Lorem ipsum </p>
+                                <p>Lorem ipsum dolor </p>
+                                <p>Lorem ipsum dolor sit.</p>
+                                <p>Lorem </p>
+                                <p>Lorem sit.</p>
+                            </div>
+                            <div class="col-auto ms-5">
+                                <h6> ABOUT US </h6>
+                                <p>Lorem ipsum dolor sit.</p>
+                                <p>Lorem ipsum </p>
+                                <p>Lorem ipsum dolor </p>
+                                <p>Lorem ipsum dolor sit.</p>
+                                <p>Lorem </p>
+                                <p>Lorem sit.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-social">
+                <div class="container-fluid p-0">
+                    <div class="row g-0">
+                        <div class="col-lg-6 col-sm-6 col-md-6 p-2">
+                            <div class="small designer"><p> bu sayfa bir <a href="https://www.twitter.com/kisacasumderler"><img src="Photos/designer-logo.png" alt="designer-logo" class="img-fluid" width="25px"></a> tasarımıdır</p></div>
+                        </div>
+                        <div class="col-lg-6 col-sm-6 col-md-6 p-2 text-end">
+                            <div class="social-1">
+                                <i class="fa-brands fa-facebook me-3"></i>
+                            <i class="fa-brands fa-twitter me-3"></i>
+                            <i class="fa-brands fa-instagram me-3"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <!-- <script> -->
+        <script src="Popper.js"></script>
+        <script src="bootstrap.js"></script>
+</body>
+</html>
